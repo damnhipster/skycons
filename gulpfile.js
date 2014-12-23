@@ -10,7 +10,8 @@ var iconfont = require("gulp-iconfont")
     , consolidate = require('gulp-consolidate')
     , lodash = require('lodash');
 
-paths.source.fontSassTemplate = paths.source.root + '/skycons.scss';
+// Loop over icons and create an array
+paths.source.fontSassTemplate = paths.source.root + '/*.scss';
 paths.source.fontHtmlTemplate = paths.source.root + '/index.html';
 
 gulp.task('copy-icons', function() {

@@ -5,7 +5,7 @@
     <title>Icons</title>
 
     <link rel="stylesheet" href="css/demo.css"/>
-    <link rel="stylesheet" href="css/skycons.css"/>
+    <link rel="stylesheet" href="css/chevron.css"/>
 </head>
 <body>
 
@@ -28,15 +28,13 @@
     </tr>
     </thead>
     <tbody>
-    <% _.each(glyphs, function(glyph) { %>
     <tr >
-        <td>skycon-<%= glyph.name %></td>
-        <td class="demo-icon"><i class="skycon skycon--<%= glyph.name %>" aria-hidden=true></i></td>
-        <td class="demo-icon"><i class="skycon skycon--<%= glyph.name %> skycon--active" aria-hidden=true></i></td>
-        <td class="demo-icon skycon--hover"><i class="skycon skycon--<%= glyph.name %>" aria-hidden=true></i></td>
-        <td class="demo-icon"><a href="icons/<%= glyph.name %>.svg" target="_new" title="Right click and 'Save as...'">view...</a> </td>
+        <td>skycon-chevron</td>
+        <td class="demo-icon"><i class="skycon skycon--chevron" aria-hidden=true></i></td>
+        <td class="demo-icon"><i class="skycon skycon--chevron skycon--active" aria-hidden=true></i></td>
+        <td class="demo-icon skycon--hover"><i class="skycon skycon--chevron" aria-hidden=true></i></td>
+        <td class="demo-icon"><a href="icons/chevron.svg" target="_new" title="Right click and 'Save as...'">view...</a> </td>
     </tr>
-    <% }); %>
     </tbody>
 </table>
 
