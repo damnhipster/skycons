@@ -1,0 +1,10 @@
+@import '_skycons';
+
+.skycon-chevron:before, //deprecate me in-favour of bem style
+.skycon--chevron:before{
+  content: "\E00B";
+}
+
+body {
+  @include set-skycon-colour('chevron', $link);
+}
